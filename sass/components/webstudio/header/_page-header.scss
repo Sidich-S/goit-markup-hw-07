@@ -4,10 +4,11 @@
 
   border-bottom: 1px solid #ececec;
   border-left: none;
-}
 
-.header__block {
+
+  &__block {
   display: inline-block;
   display: flex;
-}
+  }
 
+}

@@ -7,6 +7,12 @@
   padding-bottom: 32px;
 }
 
+.contacts__item {
+  display: flex;
+  position: relative;
+  bottom: -1;
+}
+
 .contacts__link {
   color: var(--basiс-color);
   display: flex;
@@ -20,6 +26,11 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(---basic-cubic-bezier);
+
+  &:hover,
+  &:focus {
+  color: var(--third-color);
+  }
 }
 
 .contacts__icon {
@@ -29,10 +40,10 @@
   transition-property: background-color, fill;
   transition-duration: 250ms;
   transition-timing-function: var(---basic-cubic-bezier);
-}
 
-.contacts__icon:hover,
-.contacts__icon:focus {
+  &:hover,
+  &:focus {
   background-color: var(--secondary-background-color);
   fill: #2196f3;
+  }
 }

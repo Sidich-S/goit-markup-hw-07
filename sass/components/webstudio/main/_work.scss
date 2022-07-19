@@ -3,17 +3,17 @@
   display: flex;
   padding-top: 0px;
   margin-bottom: 94px;
-}
 
-.work__wrapper {
+
+  .work__wrapper {
   position: relative;
-}
+  }
 
-.work__img {
+  .work__img {
   display: block;
-}
+  }
 
-.work__name {
+  .work__name {
   position: absolute; 
   width: 100%;
   height: 70px;
@@ -32,4 +32,5 @@
 
   color: #F5F4FA;
   background: rgba(47, 48, 58, 0.8);
+  }
 }

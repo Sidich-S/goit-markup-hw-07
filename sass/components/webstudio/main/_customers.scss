@@ -2,17 +2,17 @@
 .customers {
   display: flex;
   justify-content: center;
-}
 
-.customers__item {
-  margin-right: 30px;
-}
 
-.customers__item:last-child {
-  margin-right: 0px;
-}
+  .customers__item {
+   margin-right: 30px;
 
-.customers__link {
+   &:last-child {
+   margin-right: 0px;
+   }
+  }
+
+ .customers__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,15 +28,17 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(---basic-cubic-bezier);
-}
 
-.customers__icon {
-  fill: currentColor;
-}
-
-.customers__link:hover, 
-.customers__link:focus {
+  &:hover, 
+  &:focus {
   color: #2196f3;
   border: 1px solid #2196F3;
   outline: none;
+  }
+ }
+
+ &__icon {
+  fill: currentColor;
+ }
+
 }

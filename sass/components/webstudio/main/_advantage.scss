@@ -5,18 +5,18 @@
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 0px;
-}
 
-.advantage__icon {
+
+  .advantage__icon {
   background-color: var(--secondary-background-color);
 
   display: flex;
   height: 120px;
   justify-content: center;
   align-items: center;
-}
+  }
 
-.advantage__title {
+  .advantage__title {
   font-family: var(--basic-font-family);
   color: var(--secondary-color);
 
@@ -28,9 +28,9 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
+  }
 
-.advantage__text {
+  .advantage__text {
   font-family: var(--basic-font-family);
   color: var(--basiс-color);
 
@@ -40,4 +40,5 @@
 
   line-height: 1.7;
   letter-spacing: 0.03em;
+  }
 }

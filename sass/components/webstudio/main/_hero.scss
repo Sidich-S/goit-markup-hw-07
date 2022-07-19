@@ -9,9 +9,9 @@
   background-position: center;
   max-width: 1600px;
   margin: 0 auto;
-  }
+ 
 
-.hero__title {
+  .hero__title {
   font-family: var(--basic-font-family);
   color: var(--final-color);
 
@@ -23,7 +23,9 @@
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  }
 }
+
 
 .button {
   font-family: var(--basic-font-family);
