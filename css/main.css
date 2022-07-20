@@ -190,6 +190,9 @@ ul {
   -webkit-transition-timing-function: var(--basic-cubic-bezier);
           transition-timing-function: var(--basic-cubic-bezier);
 }
+.nav__link {
+  color: var(--secondary-color);
+}
 .nav__link--current {
   color: var(--third-color);
   display: -webkit-box;
@@ -209,9 +212,6 @@ ul {
 }
 .nav__link:hover, .nav__link:focus {
   color: var(--third-color);
-}
-.nav__link {
-  color: var(--secondary-color);
 }
 
 .contacts {
@@ -501,12 +501,12 @@ ul {
 .card__link:hover .card-icon,
 .card__link:focus .card-icon {
   fill: #F5F4FA;
-  background-color: #2196f3;
 }
 
 .card__link--anime:hover,
 .card__link--anime:focus {
   background-color: #2196f3;
+  cursor: pointer;
 }
 
 .customers {
@@ -667,6 +667,7 @@ ul {
 .join__link--anime:hover,
 .join__link--anime:focus {
   background-color: #2196F3;
+  cursor: pointer;
 }
 
 .subscribe {

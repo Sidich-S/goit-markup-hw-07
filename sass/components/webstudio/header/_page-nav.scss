@@ -51,6 +51,11 @@
   transition-timing-function: var(--basic-cubic-bezier);
 
   
+   & {
+  color: var(--secondary-color);
+  }
+
+
   &--current {
   color: var(--third-color);
   display: flex;
@@ -72,10 +77,6 @@
   &:hover,
   &:focus {
   color: var(--third-color);
-  }
-
-  & {
-  color: var(--secondary-color);
   }
 
 }

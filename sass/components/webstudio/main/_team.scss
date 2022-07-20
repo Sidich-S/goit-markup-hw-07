@@ -96,10 +96,10 @@
 .card__link:hover .card-icon,
 .card__link:focus .card-icon {
   fill: #F5F4FA;
-  background-color: #2196f3;
 }
 
 .card__link--anime:hover,
 .card__link--anime:focus {
   background-color: #2196f3;
+  cursor: pointer;
 }
